@@ -6,14 +6,16 @@
 <meta name="description" content="Võ Thị Kim Đan: marketing, content and events. Portfolio for the Marketing &amp; Communication Intern role at Grant Thornton Vietnam.">
 <meta name="theme-color" content="#4f2d7f">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Võ Thị Kim Đan · Portfolio">
+<meta property="og:title" content="Võ Thị Kim Đan · Marketing & Communication Portfolio">
 <meta property="og:description" content="Quietly planning, loudly creative. Content, campaigns and events from 003Lab, SIHUB, VNSIC and more.">
-<meta property="og:image" content="/meta/og.jpg">
+<meta property="og:image" content="https://kimdan-marcom.vercel.app/meta/og.jpg">
+<meta property="og:url" content="https://kimdan-marcom.vercel.app/">
+<link rel="canonical" href="https://kimdan-marcom.vercel.app/">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/meta/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/meta/favicon.ico" sizes="any">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<title>Kim Đan Portfolio</title>
+<title>Võ Thị Kim Đan · Marketing & Communication</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,500..900&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
@@ -233,6 +235,9 @@ h2{font-family:var(--display);font-variation-settings:"wdth" 112;font-weight:800
 .small{font-size:13px;color:rgba(251,246,255,.75);margin:0;min-height:1.2em}
 footer{text-align:center;color:var(--muted);font-size:13px;padding-block:28px 8px}
 
+.earlier{margin-top:22px;display:inline-flex;align-items:center;gap:12px;color:var(--muted);text-decoration:none;font-size:15.5px;border-bottom:1px solid var(--line);padding-bottom:4px;transition:color .25s,border-color .25s}
+.earlier i{font-style:normal;color:var(--lamp);transition:transform .3s var(--ease)}
+.earlier:hover{color:var(--paper);border-color:var(--lamp)}.earlier:hover i{transform:translate(3px,-3px)}
 /* beyond work feature */
 #beyond{padding-top:0}
 .vol{position:relative;display:block;width:100%;min-height:clamp(420px,44vw,600px);border:0;padding:0;border-radius:28px;overflow:hidden;isolation:isolate;cursor:pointer;text-align:left;color:var(--paper);font:inherit;background:#132015}
@@ -574,7 +579,7 @@ body.locked .track,body.locked .badge svg,body.locked .scrollcue::after{animatio
           <p>I wrote daily posts for three language apps across six countries, tested different openings and kept what worked. Reach passed 1M a month, and about 1.5% of Threads readers went on to install the app.</p></div>
         <div class="job rv"><h3>Content Marketing Intern</h3><span class="when">12/2025 – 03/2026</span><span class="org">Startup &amp; Innovation Hub of HCMC (SIHUB)</span>
           <p>I covered around ten events from the first announcement to the recap, wrote profiles for 50+ startups and filmed on site. The startup exhibition I worked on drew 3,000+ sign-ups and 7,000+ visitors.</p></div>
-        <div class="job rv"><h3>Marketing Lead</h3><span class="when">08/2025 – 2026</span><span class="org">Tứ Gia Co., Ltd. · imported beer</span>
+        <div class="job rv"><h3>Marketing Lead</h3><span class="when">08/2025 – now</span><span class="org">Tứ Gia Co., Ltd. · imported beer</span>
           <p>I looked after Facebook, TikTok, the website and paid ads for an imported beer brand, designed its logo and packaging with our designers, and sent management a short report every week. Our campaigns reached 400K+ people.</p></div>
         <div class="job rv"><h3>Media Team &amp; Product Team Lead</h3><span class="when">05/2025 – now</span><span class="org">Van Lang University</span>
           <p>Media team for VNSIC 2025, visuals for the Nordic Perspectives Workshop (later covered by Tuổi Trẻ and Thanh Niên), and content for our exchange programs with Taiwan, Thailand and Singapore.</p></div>
@@ -592,6 +597,7 @@ body.locked .track,body.locked .badge svg,body.locked .scrollcue::after{animatio
         <p class="rv" style="--d:.16s">Open a project to see the real posts, the numbers and the press coverage.</p>
       </div>
       <div class="rows" id="workgrid"></div>
+      <a class="earlier rv" href="https://daniellekim-portfolio.vercel.app/" target="_blank" rel="noopener"><span>Want the full case studies? See my earlier portfolio</span><i aria-hidden="true">↗</i></a>
     </section>
 
     <section id="beyond">
@@ -627,7 +633,7 @@ body.locked .track,body.locked .badge svg,body.locked .scrollcue::after{animatio
   <footer>© 2026 Võ Thị Kim Đan</footer>
 </div>
 
-<div class="peek" id="peek" aria-hidden="true"><div class="peek-in" id="peek-in"><span class="tag">Xem chi tiết</span></div></div>
+<div class="peek" id="peek" aria-hidden="true"><div class="peek-in" id="peek-in"><span class="tag">View project</span></div></div>
 <dialog class="cs" id="cs" aria-labelledby="cs-title" data-lenis-prevent>
   <div class="cs-bar" id="cs-bar"><span id="cs-crumb">Project</span><button class="cs-x" id="cs-x" type="button" aria-label="Close project">×</button></div>
   <div class="cs-in" id="cs-in"></div>
@@ -655,7 +661,7 @@ const PROJECTS=[
   postsTitle:'Posts from the campaign',
   posts:[['img/lab-post-103157.webp','Thailand · 31.5K views','640/526'],['img/lab-post-103137.webp','Thailand · 30.4K views','640/438'],['img/lab-post-103211.webp','Thailand · 24.2K views','640/412'],['img/lab-post-103334.webp','US · 13K views','640/319'],['img/lab-post-103345.webp','Thailand · 7.6K views','640/552'],['img/lab-post-103225.webp','Taiwan · 6.1K views','640/549'],['img/lab-post-103255.webp','Taiwan · 6K views','640/468'],['img/lab-post-103406.webp','US · 4.5K views','640/282'],['img/lab-post-103320.webp','US · 4K views','640/289'],['img/lab-post-103306.webp','Taiwan · 2.7K views','640/551']],
   gallery:[['img/p-003lab-1.webp','One account’s organic reach in a single month: 500K+ views (+126.8%)'],['img/p-003lab-2.webp','Hooks that travelled across Thailand, Taiwan and the US on Threads'],['img/lab-tracking.webp','Weekly tracking: every post’s reach, likes, comments and shares by app and market'],['img/p-003lab-3.webp','Weekly performance across five markets'],['img/lab-plan.webp','The content plan: hooks and post copy written for each market']]},
- {id:'tugia',title:'Tứ Gia Co., Ltd.',kicker:'Imported beer · Marketing Lead',period:'08/2025 – 2026',thumb:'img/thumb-tugia.webp',
+ {id:'tugia',title:'Tứ Gia Co., Ltd.',kicker:'Imported beer · Marketing Lead',period:'08/2025 – now',thumb:'img/thumb-tugia.webp',
   line:'Marketing for an imported beer brand',metric:'400K+ reach',
   desc:'Marketing for an imported beer business in Ho Chi Minh City. I planned the content calendar, ran Meta and TikTok ads on a real budget, built the brand’s WordPress website and designed the logo, packaging and in-store banners with our designers.',
   tags:['Meta Ads','TikTok Ads','WordPress','Brand identity'],
@@ -839,11 +845,15 @@ document.documentElement.classList.add('js');
       peek.style.transform=`translate3d(${x.toFixed(1)}px,${y.toFixed(1)}px,0) rotate(${rot.toFixed(2)}deg)`;
       if(on||Math.abs(dx)>.5)requestAnimationFrame(step);else loop=false;};
     const kick=()=>{if(!loop){loop=true;requestAnimationFrame(step);}};
-    addEventListener('pointermove',e=>{tx=e.clientX;ty=e.clientY;if(on)kick();},{passive:true});
+    const hide=()=>{on=false;peek.classList.remove('on');};
+    addEventListener('pointermove',e=>{tx=e.clientX;ty=e.clientY;if(on){if(!(e.target.closest&&e.target.closest('.row')))hide();else kick();}},{passive:true});
+    addEventListener('scroll',()=>{if(on)hide();},{passive:true});
+    addEventListener('pointerdown',hide,true);
+    document.addEventListener('visibilitychange',hide);
     document.querySelectorAll('.row').forEach(r=>{
       r.addEventListener('pointerenter',e=>{if(!on){x=tx=e.clientX;y=ty=e.clientY;}on=true;peek.classList.add('on');
         Object.entries(pimgs).forEach(([k,im])=>im.classList.toggle('on',k===r.dataset.id));kick();});
-      r.addEventListener('pointerleave',()=>{on=false;peek.classList.remove('on');});
+      r.addEventListener('pointerleave',hide);
     });
   }
 
